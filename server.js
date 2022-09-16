@@ -8,11 +8,11 @@ app.use(cors());
 const breads = {
   "italian baguette": {
     recipeName: "italian baguette",
-    ingredients: ["flour", "salt"],
-    measurements: ["1 cup", "2 tbsp"],
-    directions: "Mix ingredients",
-    totalServers: 1,
-    totalPrepTime: 20,
+    ingredients: [],
+    measurements: [],
+    directions: "",
+    totalServers: null,
+    totalPrepTime: null,
   },
   "unknown bread": {
     recipeName: "unknown",
