@@ -7,7 +7,7 @@ app.use(cors());
 
 const breads = {
   "italian baguette": {
-    breadName: "italian baguette",
+    breadName: "Italian Baguette",
     ingredients: [],
     measurements: [],
     directions: "",
