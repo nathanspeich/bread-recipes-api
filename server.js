@@ -35,6 +35,6 @@ app.get("/api/:breadName", (req, res) => {
     res.json(breads["unknown bread"]);
   }
 });
-app.listen(PORT, (req, res) => {
+app.listen(process.env.PORT || PORT, (req, res) => {
   console.log(`Server is running on port ${PORT}.`);
 });
