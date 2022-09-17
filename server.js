@@ -20,7 +20,7 @@ const breads = {
     directions: "",
     bakeTemp: 425,
     totalBakeTime: 25,
-    totalServers: null,
+    totalServings: null,
   },
   "unknown bread": {
     recipeName: "unknown",
