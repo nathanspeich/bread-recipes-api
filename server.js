@@ -6,13 +6,21 @@ const PORT = 8000;
 app.use(cors());
 
 const breads = {
-  "italian baguette": {
-    breadName: "Italian Baguette",
-    ingredients: [],
-    measurements: [],
+  focaccia: {
+    breadName: "Focaccia",
+    ingredients: [
+      "Bread Flour",
+      "Active Dry Yeast",
+      "Sea Salt",
+      "Water",
+      "Olive Oil",
+      "Rosemary",
+    ],
+    measurements: ["512 grams", "8 grams", "10 grams", "455 grams"],
     directions: "",
+    bakeTemp: 425,
+    totalBakeTime: 25,
     totalServers: null,
-    totalPrepTime: null,
   },
   "unknown bread": {
     recipeName: "unknown",
